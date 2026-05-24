@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Desafio Jovem Nações Por Herança</title>
+  <desc id="desc">Marca provisória vetorial inspirada no logo oficial aprovado: globo, pessoa de braços abertos, pomba e lettering azul.</desc>
+  <defs>
+    <linearGradient id="cyan" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#10b8de"/><stop offset="1" stop-color="#087dc2"/></linearGradient>
+    <linearGradient id="blue" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0b5fc0"/><stop offset="1" stop-color="#062c5f"/></linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <g transform="translate(90 65)">
+    <circle cx="170" cy="120" r="105" fill="url(#cyan)"/>
+    <circle cx="170" cy="120" r="105" fill="none" stroke="#ffffff" stroke-width="10"/>
+    <path d="M75 120h190M170 18v204M105 55c38 23 94 23 132 0M105 185c38-23 94-23 132 0" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+    <path d="M80 245c120-42 202-48 300-8 85 35 160 38 248 6 106-39 218-25 342 50v70c-143-74-263-83-368-39-95 39-185 33-275-5-80-34-154-27-247 19z" fill="url(#blue)"/>
+    <g fill="url(#blue)"><circle cx="365" cy="220" r="38"/><path d="M330 255h72l36 175H300z"/><path d="M352 260C295 247 230 216 180 165l-23 21c58 61 128 98 191 114z"/><path d="M393 260c62-6 117-24 164-60l18 25c-55 43-119 66-188 72z"/></g>
+    <path d="M110 405c35-55 87-73 137-58-34 18-59 42-74 72 40-25 79-27 118-7-57 19-106 47-145 84-20-24-32-55-36-91z" fill="url(#cyan)"/>
+    <text x="410" y="150" fill="#093f86" font-family="Segoe UI, Arial, sans-serif" font-size="112" font-weight="800" font-style="italic">Desafio</text>
+    <text x="630" y="250" fill="#10b8de" font-family="Segoe UI, Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="8">JOVEM</text>
+    <text x="410" y="420" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="82" font-weight="900" font-style="italic">Nações por</text>
+    <text x="690" y="520" fill="#10b8de" font-family="Segoe UI, Arial, sans-serif" font-size="74" font-weight="800" font-style="italic">Herança</text>
+  </g>
+</svg>
