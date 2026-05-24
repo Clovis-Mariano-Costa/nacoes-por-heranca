@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://SEU-DOMINIO/sitemap.xml
+Sitemap: https://clovis-mariano-costa.github.io/nacoes-por-heranca/sitemap.xml
