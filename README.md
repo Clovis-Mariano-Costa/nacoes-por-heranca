@@ -2,6 +2,10 @@
 
 Site público inicial da Associação Social Nações Por Herança, também conhecida pelo nome fantasia Desafio Jovem Nações Por Herança.
 
+## Endereço publicado
+
+- Site: https://clovis-mariano-costa.github.io/nacoes-por-heranca/
+
 ## Identidade
 
 - Razão social: Associação Social Nações Por Herança
@@ -27,15 +31,28 @@ Inclui espaço para:
 
 ## Links importantes
 
+- Site publicado: https://clovis-mariano-costa.github.io/nacoes-por-heranca/
 - Instagram oficial: https://www.instagram.com/nacoes_heranca/
 - YouTube / Nações TV: https://www.youtube.com/@nacoestv3748
 - iGreen: https://www.igreenenergy.com.br
 - Charlie Echo Social: https://jus9verde.jus9tecnologia.com.br/charlie-echo-social#chat-social
 - Jus 9 Tecnologia Jurídica: https://www.jus9tecnologia.com.br/
 
+## GitHub Pages
+
+Endereço publicado:
+
+https://clovis-mariano-costa.github.io/nacoes-por-heranca/
+
+Configuração usada/sugerida:
+
+- Source: Deploy from a branch
+- Branch: principal ou main, conforme nome exibido no repositório
+- Folder: /root ou /
+
 ## Cloudflare Pages
 
-Configuração recomendada:
+Caso futuramente seja migrado ou espelhado para Cloudflare Pages, configuração recomendada:
 
 - Framework preset: None / Static HTML
 - Build command: `exit 0`
