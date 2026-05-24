@@ -8,6 +8,25 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  var cookieBanner = document.getElementById('cookie-banner');
+  var cookieAccept = document.querySelector('.cookie-accept');
+  var cookieKey = 'nph_cookie_notice_accepted';
+  if (cookieBanner && cookieAccept) {
+    try {
+      if (localStorage.getItem(cookieKey) === 'yes') {
+        cookieBanner.classList.add('hidden');
+      }
+      cookieAccept.addEventListener('click', function () {
+        localStorage.setItem(cookieKey, 'yes');
+        cookieBanner.classList.add('hidden');
+      });
+    } catch (error) {
+      cookieAccept.addEventListener('click', function () {
+        cookieBanner.classList.add('hidden');
+      });
+    }
+  }
+
   var midiaSection = document.getElementById('midia');
   if (!midiaSection || document.querySelector('.video-gallery')) return;
 
