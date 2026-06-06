@@ -1,0 +1,54 @@
+﻿{
+    "name":  "Nacoes Por Heranca",
+    "short_name":  "Nacoes",
+    "description":  "Associacao Social Nacoes Por Heranca: resgate, tratamento, acompanhamento e reinsercao social com dignidade.",
+    "lang":  "pt-BR",
+    "dir":  "ltr",
+    "id":  "/?source=pwa",
+    "start_url":  "/?source=pwa",
+    "scope":  "/",
+    "display":  "standalone",
+    "background_color":  "#f4f8f4",
+    "theme_color":  "#176b3a",
+    "categories":  [
+                       "business",
+                       "education",
+                       "productivity"
+                   ],
+    "icons":  [
+                  {
+                      "purpose":  "any maskable",
+                      "type":  "image/svg+xml",
+                      "sizes":  "any",
+                      "src":  "/assets/img/favicon.svg"
+                  }
+              ],
+    "shortcuts":  [
+                      {
+                          "url":  "https://jus9tecnologia.com.br/",
+                          "description":  "Abrir site principal da Jus 9.",
+                          "name":  "Jus 9 Tecnologia Juridica",
+                          "icons":  [
+                                        {
+                                            "type":  "image/svg+xml",
+                                            "sizes":  "any",
+                                            "src":  "/assets/img/favicon.svg"
+                                        }
+                                    ],
+                          "short_name":  "Jus 9"
+                      },
+                      {
+                          "url":  "https://charlieecho.jus9tecnologia.com.br/",
+                          "description":  "Abrir casa publica da Charlie Echo.",
+                          "name":  "Charlie Echo",
+                          "icons":  [
+                                        {
+                                            "type":  "image/svg+xml",
+                                            "sizes":  "any",
+                                            "src":  "/assets/img/favicon.svg"
+                                        }
+                                    ],
+                          "short_name":  "Charlie"
+                      }
+                  ]
+}
